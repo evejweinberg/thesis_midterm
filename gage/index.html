@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>SVG gauge</title>
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+
+
+
+      <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+  <div class='flex'>
+<div class="container A flex-child">
+  <svg class="typeRange" height="165" width="330" view-box="0 0 330 165">
+
+    <g class="scale" stroke="red"></g>
+
+    <path class="outline" d="" />
+    <path class="fill" d="" />
+    <div class="needleD">
+
+    </div>
+    <!-- <polygon class="needle" points="220,10 300,210 220,250 140,210" /> -->
+  </svg>
+   <div class="insider"></div>
+  </div>
+
+
+  <div class="output flex-child">30</div>
+
+
+  <div class="containerB container A flex-child">
+  <svg class="typeRange typeRangeB" height="165" width="330" view-box="0 0 330 165">
+
+    <g class=" scaleB" stroke="red"></g>
+
+    <path class="outline outlineB" d="" />
+    <path class="fill fillB" d="" />
+    <div class="needleC">
+    <div class="needleCinner">
+
+    </div>
+  </div>
+    <polygon class="needleB" points="220,10 300,210 220,250 140,210" />
+  </svg>
+   <div class="insider"></div>
+  </div>
+
+<!-- <video id="video1" autoplay src="out.webm" loop></video>
+  <video autoplay preload="metadata">
+    <source src="ManA.webm"  type="video/webm" />
+
+  </video> -->
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

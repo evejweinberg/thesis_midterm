@@ -1,0 +1,79 @@
+
+
+
+
+
+.radioholder {
+	position: relative;
+	width: 88%;
+	left: 6%;
+/* 	background: #fff; */
+	margin-bottom: 1em;
+	font-size: .6em;
+/* 	height: 4em; */
+	color: #666;
+	-o-transition: .1s ease-out;
+	-ms-transition: .1s ease-out;
+	-moz-transition: .1s ease-out;
+	-webkit-transition: .1s ease-out;
+	transition: .1s ease-out;
+	cursor: pointer;
+}
+
+
+.activeradioholder {
+	background: #ffffff;
+	color: #494949;
+}
+
+.radioholder .desc {
+	z-index: 100;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 2.6em;
+	line-height: 1.4em;
+}
+
+.radioholder .tick {
+/* 	margin-top:-7px; */
+	display: inline-block;
+	vertical-align: middle;
+	width: 2.4em;
+	height: 100%;
+	position: absolute;
+	background-color: #eee;
+/* 	background-image: none; */
+	-o-transition: .1s ease-out;
+	-ms-transition: .1s ease-out;
+	-moz-transition: .1s ease-out;
+	-webkit-transition: .1s ease-out;
+	transition: .1s ease-out;
+}
+
+.activeradioholder .tick {
+/* 	justify-content: center; */
+/* 	margin-top:-7px; */
+	position: absolute;
+	background-color: #000000;
+	background-image: url('http://supereightstudio.com/img/radio_tick.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+
+.radioholder:hover {
+	background-color: #eee;
+}
+
+.radioholder:hover .tick {
+	background-color: #ddd;
+}
+
+.activeradioholder:hover {
+	background-color: #ffffff;
+}
+
+.activeradioholder:hover .tick {
+	background-color: #000000;
+}

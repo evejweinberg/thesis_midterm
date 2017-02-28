@@ -1,0 +1,565 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'json-to-sass',
+1 verbose cli   '-g' ]
+2 info using npm@4.1.1
+3 info using node@v6.9.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData json-to-sass
+8 silly fetchNamedPackageData json-to-sass
+9 silly mapToRegistry name json-to-sass
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'json-to-sass',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'json-to-sass',
+12 silly mapToRegistry   name: 'json-to-sass',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/json-to-sass
+14 verbose request uri https://registry.npmjs.org/json-to-sass
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 4:41:02 PM
+17 verbose request id 00379e58ca6914a8
+18 http request GET https://registry.npmjs.org/json-to-sass
+19 http 200 https://registry.npmjs.org/json-to-sass
+20 verbose headers { server: 'nginx/1.10.1',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'last-modified': 'Wed, 05 Aug 2015 13:44:18 GMT',
+20 verbose headers   etag: 'W/"55c21332-742"',
+20 verbose headers   'content-encoding': 'gzip',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'content-length': '697',
+20 verbose headers   'accept-ranges': 'bytes',
+20 verbose headers   date: 'Mon, 20 Feb 2017 21:41:02 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   age: '0',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-jfk8140-JFK',
+20 verbose headers   'x-cache': 'MISS',
+20 verbose headers   'x-cache-hits': '0',
+20 verbose headers   'x-timer': 'S1487626862.684074,VS0,VE48',
+20 verbose headers   vary: 'Accept-Encoding' }
+21 silly get cb [ 200,
+21 silly get   { server: 'nginx/1.10.1',
+21 silly get     'content-type': 'application/json',
+21 silly get     'last-modified': 'Wed, 05 Aug 2015 13:44:18 GMT',
+21 silly get     etag: 'W/"55c21332-742"',
+21 silly get     'content-encoding': 'gzip',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'content-length': '697',
+21 silly get     'accept-ranges': 'bytes',
+21 silly get     date: 'Mon, 20 Feb 2017 21:41:02 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     age: '0',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-jfk8140-JFK',
+21 silly get     'x-cache': 'MISS',
+21 silly get     'x-cache-hits': '0',
+21 silly get     'x-timer': 'S1487626862.684074,VS0,VE48',
+21 silly get     vary: 'Accept-Encoding' } ]
+22 verbose get saving json-to-sass to /Users/eveweinberg/.npm/registry.npmjs.org/json-to-sass/.cache.json
+23 verbose correctMkdir /Users/eveweinberg/.npm correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule json-to-sass@0.0.1 checking installable status
+37 silly cache add args [ 'json-to-sass', null ]
+38 verbose cache add spec json-to-sass
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'json-to-sass',
+39 silly cache add   scope: null,
+39 silly cache add   escapedName: 'json-to-sass',
+39 silly cache add   name: 'json-to-sass',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed json-to-sass@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for json-to-sass
+42 info addNameTag [ 'json-to-sass', 'latest' ]
+43 silly mapToRegistry name json-to-sass
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'json-to-sass',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   escapedName: 'json-to-sass',
+46 silly mapToRegistry   name: 'json-to-sass',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/json-to-sass
+48 verbose addNameTag registry:https://registry.npmjs.org/json-to-sass not in flight; fetching
+49 verbose get https://registry.npmjs.org/json-to-sass not expired, no request
+50 silly addNameTag next cb for json-to-sass with tag latest
+51 silly addNamed json-to-sass@0.0.1
+52 verbose addNamed "0.0.1" is a plain semver version for json-to-sass
+53 silly mapToRegistry name json-to-sass
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'json-to-sass',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   escapedName: 'json-to-sass',
+56 silly mapToRegistry   name: 'json-to-sass',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/json-to-sass
+58 verbose addRemoteTarball https://registry.npmjs.org/json-to-sass/-/json-to-sass-0.0.1.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/json-to-sass/-/json-to-sass-0.0.1.tgz',
+59 verbose addRemoteTarball   '3351b4612a11beed3b7f9227f19ad7e05c913b0c' ]
+60 info retry fetch attempt 1 at 4:41:02 PM
+61 info attempt registry request try #1 at 4:41:02 PM
+62 http fetch GET https://registry.npmjs.org/json-to-sass/-/json-to-sass-0.0.1.tgz
+63 http fetch 200 https://registry.npmjs.org/json-to-sass/-/json-to-sass-0.0.1.tgz
+64 silly fetchAndShaCheck shasum 3351b4612a11beed3b7f9227f19ad7e05c913b0c
+65 verbose addTmpTarball /var/folders/1q/7cv123fd2jd87w85cpvmt3rm0000gn/T/npm-38032-e2c26d2b/registry.npmjs.org/json-to-sass/-/json-to-sass-0.0.1.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for json-to-sass@0.0.1
+67 verbose correctMkdir /Users/eveweinberg/.npm correctMkdir not in flight; initializing
+68 silly cache afterAdd json-to-sass@0.0.1
+69 verbose afterAdd /Users/eveweinberg/.npm/json-to-sass/0.0.1/package/package.json not in flight; writing
+70 verbose correctMkdir /Users/eveweinberg/.npm correctMkdir not in flight; initializing
+71 verbose afterAdd /Users/eveweinberg/.npm/json-to-sass/0.0.1/package/package.json written
+72 silly fetchNamedPackageData lodash
+73 silly mapToRegistry name lodash
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'lodash',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   escapedName: 'lodash',
+76 silly mapToRegistry   name: 'lodash',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/lodash
+78 verbose request uri https://registry.npmjs.org/lodash
+79 verbose request no auth needed
+80 info attempt registry request try #1 at 4:41:03 PM
+81 verbose etag W/"58a43d58-28eee"
+82 verbose lastModified Wed, 15 Feb 2017 11:36:56 GMT
+83 http request GET https://registry.npmjs.org/lodash
+84 http 200 https://registry.npmjs.org/lodash
+85 verbose headers { server: 'nginx/1.10.1',
+85 verbose headers   'content-type': 'application/json',
+85 verbose headers   'last-modified': 'Mon, 20 Feb 2017 20:04:37 GMT',
+85 verbose headers   etag: 'W/"58ab4bd5-28f5b"',
+85 verbose headers   'content-encoding': 'gzip',
+85 verbose headers   'cache-control': 'max-age=300',
+85 verbose headers   'content-length': '16930',
+85 verbose headers   'accept-ranges': 'bytes',
+85 verbose headers   date: 'Mon, 20 Feb 2017 21:41:03 GMT',
+85 verbose headers   via: '1.1 varnish',
+85 verbose headers   age: '66',
+85 verbose headers   connection: 'keep-alive',
+85 verbose headers   'x-served-by': 'cache-jfk8140-JFK',
+85 verbose headers   'x-cache': 'HIT',
+85 verbose headers   'x-cache-hits': '6',
+85 verbose headers   'x-timer': 'S1487626863.210193,VS0,VE0',
+85 verbose headers   vary: 'Accept-Encoding' }
+86 silly get cb [ 200,
+86 silly get   { server: 'nginx/1.10.1',
+86 silly get     'content-type': 'application/json',
+86 silly get     'last-modified': 'Mon, 20 Feb 2017 20:04:37 GMT',
+86 silly get     etag: 'W/"58ab4bd5-28f5b"',
+86 silly get     'content-encoding': 'gzip',
+86 silly get     'cache-control': 'max-age=300',
+86 silly get     'content-length': '16930',
+86 silly get     'accept-ranges': 'bytes',
+86 silly get     date: 'Mon, 20 Feb 2017 21:41:03 GMT',
+86 silly get     via: '1.1 varnish',
+86 silly get     age: '66',
+86 silly get     connection: 'keep-alive',
+86 silly get     'x-served-by': 'cache-jfk8140-JFK',
+86 silly get     'x-cache': 'HIT',
+86 silly get     'x-cache-hits': '6',
+86 silly get     'x-timer': 'S1487626863.210193,VS0,VE0',
+86 silly get     vary: 'Accept-Encoding' } ]
+87 verbose get saving lodash to /Users/eveweinberg/.npm/registry.npmjs.org/lodash/.cache.json
+88 verbose correctMkdir /Users/eveweinberg/.npm correctMkdir not in flight; initializing
+89 silly pickManifestFromRegistryMetadata spec >=3.10.1 <4.0.0 tag latest versions [ '0.1.0',
+89 silly pickManifestFromRegistryMetadata   '0.2.0',
+89 silly pickManifestFromRegistryMetadata   '0.2.1',
+89 silly pickManifestFromRegistryMetadata   '0.2.2',
+89 silly pickManifestFromRegistryMetadata   '0.3.0',
+89 silly pickManifestFromRegistryMetadata   '0.3.1',
+89 silly pickManifestFromRegistryMetadata   '0.3.2',
+89 silly pickManifestFromRegistryMetadata   '0.4.0',
+89 silly pickManifestFromRegistryMetadata   '0.4.1',
+89 silly pickManifestFromRegistryMetadata   '0.4.2',
+89 silly pickManifestFromRegistryMetadata   '0.5.0-rc.1',
+89 silly pickManifestFromRegistryMetadata   '0.5.0',
+89 silly pickManifestFromRegistryMetadata   '0.5.1',
+89 silly pickManifestFromRegistryMetadata   '0.5.2',
+89 silly pickManifestFromRegistryMetadata   '0.6.0',
+89 silly pickManifestFromRegistryMetadata   '0.6.1',
+89 silly pickManifestFromRegistryMetadata   '0.7.0',
+89 silly pickManifestFromRegistryMetadata   '0.8.0',
+89 silly pickManifestFromRegistryMetadata   '0.8.1',
+89 silly pickManifestFromRegistryMetadata   '0.8.2',
+89 silly pickManifestFromRegistryMetadata   '0.9.0',
+89 silly pickManifestFromRegistryMetadata   '0.9.1',
+89 silly pickManifestFromRegistryMetadata   '0.9.2',
+89 silly pickManifestFromRegistryMetadata   '0.10.0',
+89 silly pickManifestFromRegistryMetadata   '1.0.0-rc.1',
+89 silly pickManifestFromRegistryMetadata   '1.0.0-rc.2',
+89 silly pickManifestFromRegistryMetadata   '1.0.0-rc.3',
+89 silly pickManifestFromRegistryMetadata   '1.0.0',
+89 silly pickManifestFromRegistryMetadata   '1.0.1',
+89 silly pickManifestFromRegistryMetadata   '1.1.0',
+89 silly pickManifestFromRegistryMetadata   '1.1.1',
+89 silly pickManifestFromRegistryMetadata   '1.2.0',
+89 silly pickManifestFromRegistryMetadata   '1.2.1',
+89 silly pickManifestFromRegistryMetadata   '1.3.0',
+89 silly pickManifestFromRegistryMetadata   '1.3.1',
+89 silly pickManifestFromRegistryMetadata   '2.0.0',
+89 silly pickManifestFromRegistryMetadata   '2.1.0',
+89 silly pickManifestFromRegistryMetadata   '2.2.0',
+89 silly pickManifestFromRegistryMetadata   '2.2.1',
+89 silly pickManifestFromRegistryMetadata   '2.3.0',
+89 silly pickManifestFromRegistryMetadata   '2.4.0',
+89 silly pickManifestFromRegistryMetadata   '2.4.1',
+89 silly pickManifestFromRegistryMetadata   '3.0.0',
+89 silly pickManifestFromRegistryMetadata   '3.0.1',
+89 silly pickManifestFromRegistryMetadata   '3.1.0',
+89 silly pickManifestFromRegistryMetadata   '3.2.0',
+89 silly pickManifestFromRegistryMetadata   '3.3.0',
+89 silly pickManifestFromRegistryMetadata   '3.3.1',
+89 silly pickManifestFromRegistryMetadata   '3.4.0',
+89 silly pickManifestFromRegistryMetadata   '3.5.0',
+89 silly pickManifestFromRegistryMetadata   '3.6.0',
+89 silly pickManifestFromRegistryMetadata   '1.0.2',
+89 silly pickManifestFromRegistryMetadata   '3.7.0',
+89 silly pickManifestFromRegistryMetadata   '2.4.2',
+89 silly pickManifestFromRegistryMetadata   '3.8.0',
+89 silly pickManifestFromRegistryMetadata   '3.9.0',
+89 silly pickManifestFromRegistryMetadata   '3.9.1',
+89 silly pickManifestFromRegistryMetadata   '3.9.2',
+89 silly pickManifestFromRegistryMetadata   '3.9.3',
+89 silly pickManifestFromRegistryMetadata   '3.10.0',
+89 silly pickManifestFromRegistryMetadata   '3.10.1',
+89 silly pickManifestFromRegistryMetadata   '4.0.0',
+89 silly pickManifestFromRegistryMetadata   '4.0.1',
+89 silly pickManifestFromRegistryMetadata   '4.1.0',
+89 silly pickManifestFromRegistryMetadata   '4.2.0',
+89 silly pickManifestFromRegistryMetadata   '4.2.1',
+89 silly pickManifestFromRegistryMetadata   '4.3.0',
+89 silly pickManifestFromRegistryMetadata   '4.4.0',
+89 silly pickManifestFromRegistryMetadata   '4.5.0',
+89 silly pickManifestFromRegistryMetadata   '4.5.1',
+89 silly pickManifestFromRegistryMetadata   '4.6.0',
+89 silly pickManifestFromRegistryMetadata   '4.6.1',
+89 silly pickManifestFromRegistryMetadata   '4.7.0',
+89 silly pickManifestFromRegistryMetadata   '4.8.0',
+89 silly pickManifestFromRegistryMetadata   '4.8.1',
+89 silly pickManifestFromRegistryMetadata   '4.8.2',
+89 silly pickManifestFromRegistryMetadata   '4.9.0',
+89 silly pickManifestFromRegistryMetadata   '4.10.0',
+89 silly pickManifestFromRegistryMetadata   '4.11.0',
+89 silly pickManifestFromRegistryMetadata   '4.11.1',
+89 silly pickManifestFromRegistryMetadata   '4.11.2',
+89 silly pickManifestFromRegistryMetadata   '4.12.0',
+89 silly pickManifestFromRegistryMetadata   '4.13.0',
+89 silly pickManifestFromRegistryMetadata   '4.13.1',
+89 silly pickManifestFromRegistryMetadata   '4.14.0',
+89 silly pickManifestFromRegistryMetadata   '4.14.1',
+89 silly pickManifestFromRegistryMetadata   '4.14.2',
+89 silly pickManifestFromRegistryMetadata   '4.15.0',
+89 silly pickManifestFromRegistryMetadata   '4.16.0',
+89 silly pickManifestFromRegistryMetadata   '4.16.1',
+89 silly pickManifestFromRegistryMetadata   '4.16.2',
+89 silly pickManifestFromRegistryMetadata   '4.16.3',
+89 silly pickManifestFromRegistryMetadata   '4.16.4',
+89 silly pickManifestFromRegistryMetadata   '4.16.5',
+89 silly pickManifestFromRegistryMetadata   '4.16.6',
+89 silly pickManifestFromRegistryMetadata   '4.17.0',
+89 silly pickManifestFromRegistryMetadata   '4.17.1',
+89 silly pickManifestFromRegistryMetadata   '4.17.2',
+89 silly pickManifestFromRegistryMetadata   '4.17.3',
+89 silly pickManifestFromRegistryMetadata   '4.17.4' ]
+90 silly resolveWithNewModule lodash@3.10.1 checking installable status
+91 silly cache add args [ 'lodash@^3.10.1', null ]
+92 verbose cache add spec lodash@^3.10.1
+93 silly cache add parsed spec Result {
+93 silly cache add   raw: 'lodash@^3.10.1',
+93 silly cache add   scope: null,
+93 silly cache add   escapedName: 'lodash',
+93 silly cache add   name: 'lodash',
+93 silly cache add   rawSpec: '^3.10.1',
+93 silly cache add   spec: '>=3.10.1 <4.0.0',
+93 silly cache add   type: 'range' }
+94 silly addNamed lodash@>=3.10.1 <4.0.0
+95 verbose addNamed ">=3.10.1 <4.0.0" is a valid semver range for lodash
+96 silly addNameRange { name: 'lodash', range: '>=3.10.1 <4.0.0', hasData: false }
+97 silly mapToRegistry name lodash
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry https://registry.npmjs.org/
+100 silly mapToRegistry data Result {
+100 silly mapToRegistry   raw: 'lodash',
+100 silly mapToRegistry   scope: null,
+100 silly mapToRegistry   escapedName: 'lodash',
+100 silly mapToRegistry   name: 'lodash',
+100 silly mapToRegistry   rawSpec: '',
+100 silly mapToRegistry   spec: 'latest',
+100 silly mapToRegistry   type: 'tag' }
+101 silly mapToRegistry uri https://registry.npmjs.org/lodash
+102 verbose addNameRange registry:https://registry.npmjs.org/lodash not in flight; fetching
+103 verbose get https://registry.npmjs.org/lodash not expired, no request
+104 silly addNameRange number 2 { name: 'lodash', range: '>=3.10.1 <4.0.0', hasData: true }
+105 silly addNameRange versions [ 'lodash',
+105 silly addNameRange   [ '0.1.0',
+105 silly addNameRange     '0.2.0',
+105 silly addNameRange     '0.2.1',
+105 silly addNameRange     '0.2.2',
+105 silly addNameRange     '0.3.0',
+105 silly addNameRange     '0.3.1',
+105 silly addNameRange     '0.3.2',
+105 silly addNameRange     '0.4.0',
+105 silly addNameRange     '0.4.1',
+105 silly addNameRange     '0.4.2',
+105 silly addNameRange     '0.5.0-rc.1',
+105 silly addNameRange     '0.5.0',
+105 silly addNameRange     '0.5.1',
+105 silly addNameRange     '0.5.2',
+105 silly addNameRange     '0.6.0',
+105 silly addNameRange     '0.6.1',
+105 silly addNameRange     '0.7.0',
+105 silly addNameRange     '0.8.0',
+105 silly addNameRange     '0.8.1',
+105 silly addNameRange     '0.8.2',
+105 silly addNameRange     '0.9.0',
+105 silly addNameRange     '0.9.1',
+105 silly addNameRange     '0.9.2',
+105 silly addNameRange     '0.10.0',
+105 silly addNameRange     '1.0.0-rc.1',
+105 silly addNameRange     '1.0.0-rc.2',
+105 silly addNameRange     '1.0.0-rc.3',
+105 silly addNameRange     '1.0.0',
+105 silly addNameRange     '1.0.1',
+105 silly addNameRange     '1.1.0',
+105 silly addNameRange     '1.1.1',
+105 silly addNameRange     '1.2.0',
+105 silly addNameRange     '1.2.1',
+105 silly addNameRange     '1.3.0',
+105 silly addNameRange     '1.3.1',
+105 silly addNameRange     '2.0.0',
+105 silly addNameRange     '2.1.0',
+105 silly addNameRange     '2.2.0',
+105 silly addNameRange     '2.2.1',
+105 silly addNameRange     '2.3.0',
+105 silly addNameRange     '2.4.0',
+105 silly addNameRange     '2.4.1',
+105 silly addNameRange     '3.0.0',
+105 silly addNameRange     '3.0.1',
+105 silly addNameRange     '3.1.0',
+105 silly addNameRange     '3.2.0',
+105 silly addNameRange     '3.3.0',
+105 silly addNameRange     '3.3.1',
+105 silly addNameRange     '3.4.0',
+105 silly addNameRange     '3.5.0',
+105 silly addNameRange     '3.6.0',
+105 silly addNameRange     '1.0.2',
+105 silly addNameRange     '3.7.0',
+105 silly addNameRange     '2.4.2',
+105 silly addNameRange     '3.8.0',
+105 silly addNameRange     '3.9.0',
+105 silly addNameRange     '3.9.1',
+105 silly addNameRange     '3.9.2',
+105 silly addNameRange     '3.9.3',
+105 silly addNameRange     '3.10.0',
+105 silly addNameRange     '3.10.1',
+105 silly addNameRange     '4.0.0',
+105 silly addNameRange     '4.0.1',
+105 silly addNameRange     '4.1.0',
+105 silly addNameRange     '4.2.0',
+105 silly addNameRange     '4.2.1',
+105 silly addNameRange     '4.3.0',
+105 silly addNameRange     '4.4.0',
+105 silly addNameRange     '4.5.0',
+105 silly addNameRange     '4.5.1',
+105 silly addNameRange     '4.6.0',
+105 silly addNameRange     '4.6.1',
+105 silly addNameRange     '4.7.0',
+105 silly addNameRange     '4.8.0',
+105 silly addNameRange     '4.8.1',
+105 silly addNameRange     '4.8.2',
+105 silly addNameRange     '4.9.0',
+105 silly addNameRange     '4.10.0',
+105 silly addNameRange     '4.11.0',
+105 silly addNameRange     '4.11.1',
+105 silly addNameRange     '4.11.2',
+105 silly addNameRange     '4.12.0',
+105 silly addNameRange     '4.13.0',
+105 silly addNameRange     '4.13.1',
+105 silly addNameRange     '4.14.0',
+105 silly addNameRange     '4.14.1',
+105 silly addNameRange     '4.14.2',
+105 silly addNameRange     '4.15.0',
+105 silly addNameRange     '4.16.0',
+105 silly addNameRange     '4.16.1',
+105 silly addNameRange     '4.16.2',
+105 silly addNameRange     '4.16.3',
+105 silly addNameRange     '4.16.4',
+105 silly addNameRange     '4.16.5',
+105 silly addNameRange     '4.16.6',
+105 silly addNameRange     '4.17.0',
+105 silly addNameRange     '4.17.1',
+105 silly addNameRange     '4.17.2',
+105 silly addNameRange     '4.17.3',
+105 silly addNameRange     '4.17.4' ] ]
+106 silly pickManifestFromRegistryMetadata spec >=3.10.1 <4.0.0 tag latest versions [ '0.1.0',
+106 silly pickManifestFromRegistryMetadata   '0.2.0',
+106 silly pickManifestFromRegistryMetadata   '0.2.1',
+106 silly pickManifestFromRegistryMetadata   '0.2.2',
+106 silly pickManifestFromRegistryMetadata   '0.3.0',
+106 silly pickManifestFromRegistryMetadata   '0.3.1',
+106 silly pickManifestFromRegistryMetadata   '0.3.2',
+106 silly pickManifestFromRegistryMetadata   '0.4.0',
+106 silly pickManifestFromRegistryMetadata   '0.4.1',
+106 silly pickManifestFromRegistryMetadata   '0.4.2',
+106 silly pickManifestFromRegistryMetadata   '0.5.0-rc.1',
+106 silly pickManifestFromRegistryMetadata   '0.5.0',
+106 silly pickManifestFromRegistryMetadata   '0.5.1',
+106 silly pickManifestFromRegistryMetadata   '0.5.2',
+106 silly pickManifestFromRegistryMetadata   '0.6.0',
+106 silly pickManifestFromRegistryMetadata   '0.6.1',
+106 silly pickManifestFromRegistryMetadata   '0.7.0',
+106 silly pickManifestFromRegistryMetadata   '0.8.0',
+106 silly pickManifestFromRegistryMetadata   '0.8.1',
+106 silly pickManifestFromRegistryMetadata   '0.8.2',
+106 silly pickManifestFromRegistryMetadata   '0.9.0',
+106 silly pickManifestFromRegistryMetadata   '0.9.1',
+106 silly pickManifestFromRegistryMetadata   '0.9.2',
+106 silly pickManifestFromRegistryMetadata   '0.10.0',
+106 silly pickManifestFromRegistryMetadata   '1.0.0-rc.1',
+106 silly pickManifestFromRegistryMetadata   '1.0.0-rc.2',
+106 silly pickManifestFromRegistryMetadata   '1.0.0-rc.3',
+106 silly pickManifestFromRegistryMetadata   '1.0.0',
+106 silly pickManifestFromRegistryMetadata   '1.0.1',
+106 silly pickManifestFromRegistryMetadata   '1.1.0',
+106 silly pickManifestFromRegistryMetadata   '1.1.1',
+106 silly pickManifestFromRegistryMetadata   '1.2.0',
+106 silly pickManifestFromRegistryMetadata   '1.2.1',
+106 silly pickManifestFromRegistryMetadata   '1.3.0',
+106 silly pickManifestFromRegistryMetadata   '1.3.1',
+106 silly pickManifestFromRegistryMetadata   '2.0.0',
+106 silly pickManifestFromRegistryMetadata   '2.1.0',
+106 silly pickManifestFromRegistryMetadata   '2.2.0',
+106 silly pickManifestFromRegistryMetadata   '2.2.1',
+106 silly pickManifestFromRegistryMetadata   '2.3.0',
+106 silly pickManifestFromRegistryMetadata   '2.4.0',
+106 silly pickManifestFromRegistryMetadata   '2.4.1',
+106 silly pickManifestFromRegistryMetadata   '3.0.0',
+106 silly pickManifestFromRegistryMetadata   '3.0.1',
+106 silly pickManifestFromRegistryMetadata   '3.1.0',
+106 silly pickManifestFromRegistryMetadata   '3.2.0',
+106 silly pickManifestFromRegistryMetadata   '3.3.0',
+106 silly pickManifestFromRegistryMetadata   '3.3.1',
+106 silly pickManifestFromRegistryMetadata   '3.4.0',
+106 silly pickManifestFromRegistryMetadata   '3.5.0',
+106 silly pickManifestFromRegistryMetadata   '3.6.0',
+106 silly pickManifestFromRegistryMetadata   '1.0.2',
+106 silly pickManifestFromRegistryMetadata   '3.7.0',
+106 silly pickManifestFromRegistryMetadata   '2.4.2',
+106 silly pickManifestFromRegistryMetadata   '3.8.0',
+106 silly pickManifestFromRegistryMetadata   '3.9.0',
+106 silly pickManifestFromRegistryMetadata   '3.9.1',
+106 silly pickManifestFromRegistryMetadata   '3.9.2',
+106 silly pickManifestFromRegistryMetadata   '3.9.3',
+106 silly pickManifestFromRegistryMetadata   '3.10.0',
+106 silly pickManifestFromRegistryMetadata   '3.10.1',
+106 silly pickManifestFromRegistryMetadata   '4.0.0',
+106 silly pickManifestFromRegistryMetadata   '4.0.1',
+106 silly pickManifestFromRegistryMetadata   '4.1.0',
+106 silly pickManifestFromRegistryMetadata   '4.2.0',
+106 silly pickManifestFromRegistryMetadata   '4.2.1',
+106 silly pickManifestFromRegistryMetadata   '4.3.0',
+106 silly pickManifestFromRegistryMetadata   '4.4.0',
+106 silly pickManifestFromRegistryMetadata   '4.5.0',
+106 silly pickManifestFromRegistryMetadata   '4.5.1',
+106 silly pickManifestFromRegistryMetadata   '4.6.0',
+106 silly pickManifestFromRegistryMetadata   '4.6.1',
+106 silly pickManifestFromRegistryMetadata   '4.7.0',
+106 silly pickManifestFromRegistryMetadata   '4.8.0',
+106 silly pickManifestFromRegistryMetadata   '4.8.1',
+106 silly pickManifestFromRegistryMetadata   '4.8.2',
+106 silly pickManifestFromRegistryMetadata   '4.9.0',
+106 silly pickManifestFromRegistryMetadata   '4.10.0',
+106 silly pickManifestFromRegistryMetadata   '4.11.0',
+106 silly pickManifestFromRegistryMetadata   '4.11.1',
+106 silly pickManifestFromRegistryMetadata   '4.11.2',
+106 silly pickManifestFromRegistryMetadata   '4.12.0',
+106 silly pickManifestFromRegistryMetadata   '4.13.0',
+106 silly pickManifestFromRegistryMetadata   '4.13.1',
+106 silly pickManifestFromRegistryMetadata   '4.14.0',
+106 silly pickManifestFromRegistryMetadata   '4.14.1',
+106 silly pickManifestFromRegistryMetadata   '4.14.2',
+106 silly pickManifestFromRegistryMetadata   '4.15.0',
+106 silly pickManifestFromRegistryMetadata   '4.16.0',
+106 silly pickManifestFromRegistryMetadata   '4.16.1',
+106 silly pickManifestFromRegistryMetadata   '4.16.2',
+106 silly pickManifestFromRegistryMetadata   '4.16.3',
+106 silly pickManifestFromRegistryMetadata   '4.16.4',
+106 silly pickManifestFromRegistryMetadata   '4.16.5',
+106 silly pickManifestFromRegistryMetadata   '4.16.6',
+106 silly pickManifestFromRegistryMetadata   '4.17.0',
+106 silly pickManifestFromRegistryMetadata   '4.17.1',
+106 silly pickManifestFromRegistryMetadata   '4.17.2',
+106 silly pickManifestFromRegistryMetadata   '4.17.3',
+106 silly pickManifestFromRegistryMetadata   '4.17.4' ]
+107 silly addNamed lodash@3.10.1
+108 verbose addNamed "3.10.1" is a plain semver version for lodash
+109 silly cache afterAdd lodash@3.10.1
+110 verbose afterAdd /Users/eveweinberg/.npm/lodash/3.10.1/package/package.json not in flight; writing
+111 verbose correctMkdir /Users/eveweinberg/.npm correctMkdir not in flight; initializing
+112 verbose afterAdd /Users/eveweinberg/.npm/lodash/3.10.1/package/package.json written
+113 silly loadAllDepsIntoIdealTree Finishing
+114 silly loadIdealTree Finishing
+115 silly currentTree lib
+116 silly idealTree lib
+116 silly idealTree └─┬ json-to-sass@0.0.1
+116 silly idealTree   └── lodash@3.10.1
+117 silly generateActionsToTake Starting
+118 silly install generateActionsToTake
+119 warn checkPermissions Missing write access to /usr/local/lib/node_modules
+120 silly rollbackFailedOptional Starting
+121 silly rollbackFailedOptional Finishing
+122 silly runTopLevelLifecycles Finishing
+123 silly install printInstalled
+124 verbose stack Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+124 verbose stack     at Error (native)
+125 verbose cwd /Users/eveweinberg/Desktop/THESIS/thesis_midterm_pieces/ALL/style
+126 error Darwin 16.4.0
+127 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "json-to-sass" "-g"
+128 error node v6.9.1
+129 error npm  v4.1.1
+130 error path /usr/local/lib/node_modules
+131 error code EACCES
+132 error errno -13
+133 error syscall access
+134 error Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+134 error     at Error (native)
+134 error  { Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+134 error     at Error (native)
+134 error   errno: -13,
+134 error   code: 'EACCES',
+134 error   syscall: 'access',
+134 error   path: '/usr/local/lib/node_modules' }
+135 error Please try running this command again as root/Administrator.
+136 verbose exit [ -13, true ]

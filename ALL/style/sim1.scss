@@ -1,0 +1,185 @@
+@import "_shared_variables";
+@import "_variables";
+
+
+.intro-buttons{
+  font-size: $med-sm-font;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  position: relative;
+}
+
+#user-num{
+  opacity: 0;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  vertical-align: middle;
+  display: none;
+}
+
+h2{
+  // background-color: $pink;
+  font-family: $default-font;
+  font-weight: lighter;
+}
+
+h1{
+  font-weight: 400;
+}
+
+h3{
+  color: $red;
+}
+
+#eye{
+  width: 80%;
+  height: 80%;
+/*   top: 10px; */
+}
+
+.search-box{
+  border-radius: $border-rad;
+  border: $stroke-weight solid $tan-B;
+  width: 300px;
+  height: 50px;
+  opacity: 0;
+}
+
+.search-box-button{
+  background-color: $red;
+  width: 14%;
+  height: 80%;
+  right: 5px;
+  float:right;
+  margin-top: -14%;
+  position: relative;
+  border-radius: $border-rad;
+  box-shadow: $box-shadow;
+}
+
+.search-box-button:hover{
+  background-color: $red-B;
+  cursor: pointer;
+}
+
+.blinking-line{
+  left: 3%;
+  margin-top: -8%;
+  height: 80%;
+  position:relative;
+  border-left: $stroke-weight solid $tan-B;
+  animation: blink 1s ease-in-out infinite;
+}
+
+input {
+  font-size: $med-sm-font;
+  font-weight: lighter;
+  background-color: $tan;
+  text-decoration: none;
+/*   background-color: #BFBDBD; */
+    border:solid 0px rgba(0,0,0,0);
+/*       border-left: solid 1px $tan-B; */
+
+    color:$tan-B;
+    height: 28px;
+    padding-left:10px;
+    width: 191px;
+    box-shadow: 2px 2px rgba(0,0,0,0);
+}
+
+.sim-1-header{
+  margin: 0 0;
+}
+
+.intro-lines{
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width:600px;
+}
+
+.intro-choice{
+  position: relative;
+}
+
+
+#paths > *, #paths-two > *{
+  // stroke-dasharray: 1000;
+  stroke-dasharray: $dash-spread;
+  stroke-linecap:"round";
+  animation: dash 20s linear reverse infinite;
+}
+
+#paths{
+  transition: all .5s ease-in-out;
+}
+
+#paths-two{
+  position:relative;
+  width: 200px;
+/*    stroke-dasharray: $dash-spread; */
+}
+
+.waiting-page{
+  width: 300px;
+  height: 300px;
+}
+
+.scene3{
+  opacity: 0;
+
+}
+
+
+.play:hover{
+  background-color: $tan-B;
+  color: $tan;
+  text-decoration: underline;
+}
+
+.play{
+  color: $red;
+  font-size: $sm-font;
+}
+
+
+
+.from-user-button{
+  line-height: 40px;
+  background-color: $red;
+  color: $tan;
+  width: 200px;
+  height: 40px;
+  font-weight: lighter;
+  font-size: $sm-font;
+  border-radius: $border-rad;
+/*   box-shadow: 2px rgba(0,0,0,0); */
+}
+
+
+
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 1000;
+  }
+}
+
+@keyframes blink {
+  to {
+    opacity: 0;
+  }
+}
+
+.scene {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  border: 3px pink solid;
+}

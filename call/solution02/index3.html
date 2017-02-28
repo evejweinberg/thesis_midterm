@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FlexBox Nav</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=News+Cycle:700|Noto+Sans:700" rel="stylesheet">
+</head>
+<body>
+  <div class="all">
+
+    <div class="header">
+      <img src="img/itseasy.svg" id="easy" alt="">
+    </div>
+
+  <div class="elements">
+
+    <div class="item" >
+        <div class="holder" onclick="openOne()" id="holder-1">
+          <div class="chapter" id="topic">TOPIC</div>
+          <p class="num-1">1</p>
+          <div class="topic-list">
+            <ul>
+              <li>Topic One</li>
+              <li>Topic Two</li>
+              <li>Topic Three</li>
+              <li>Topic Four</li>
+              <li>Topic Five</li>
+            </ul>
+
+          </div>
+
+        </div>
+    </div>
+    <div class="item">
+        <div class="holder" onclick="open2()" id="holder-2">
+          <div class="chapter" id="district">DISTRICT</div>
+          <p class="num num-2">2</p>
+        </div>
+    </div>
+    <div class="item">
+        <div class="holder" onclick="open3()" id="holder-3">
+          <div class="chapter" id="script">READ SCRIPT</div>
+          <p class="num num-3">3</p>
+        </div>
+    </div>
+
+  </div>
+
+  <div class="caller-numbers">
+    <span id="caller-live-number">967,013</span> people
+have called today. <br>
+<span id="join-them">Join Them!</span>
+
+  </div>
+
+
+  </div>
+
+
+  <div class="audio" id="audio">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+<audio class="music" src="audio/robyn.mp3" autoplay="true">
+  <audio class="music" src="audio/carly.mp3">
+  <audio class="music" src="audio/robyn.mp3">
+  <audio class="music" src="audio/ghostbusters.mp3">
+  <audio class="music" src="audio/charlie.mp3">
+
+</audio>
+
+<script type="text/javascript">
+const topicBox = document.getElementById('holder-1')
+const musicPlaying = true;
+const audio = document.getElementById('audio');
+const musicAll = [...document.querySelectorAll('.music')];
+const allBoxHolders = [...document.querySelectorAll('.holder')];
+allBoxHolders.forEach(box => box.addEventListener('mouseenter', hovering))
+allBoxHolders.forEach(box => box.addEventListener('mouseleave', nothovering))
+
+function hovering(){
+  if (!this.classList.contains('open')){
+    console.log('its closed')
+    // console.log('hovering', this)
+    this.classList += " hovering"
+  }
+}
+
+function nothovering(){
+  if (this.classList.contains('open')){
+  console.log('hovering', this)
+  this.classList = "holder"
+}
+}
+
+console.dir(musicAll[0])
+audio.addEventListener('click', dealWithAudio )
+
+function dealWithAudio(){
+    //if any are playing, turn them off and set audio state to paused
+    //else if none are playing, pick one randomly from the array and turn
+    //it on and set the audio state to playing
+  const allPaused = musicAll.every(music => (music.paused));
+  console.log(allPaused)
+  if (allPaused){
+    var newnum = Math.floor(Math.random()*musicAll.length)
+    console.log(newnum)
+    musicAll[newnum].play()
+  } else {
+    musicAll.forEach(music => music.pause());
+  }
+
+
+
+
+}
+
+function openOne(e){
+  const numOne = document.querySelector('.num-1')
+  numOne.style.top = "5%";
+  numOne.style['margin-top'] = "-35%";
+  numOne.style.position = 'absolute';
+  numOne.style['font-size'] = "4vh";
+
+  document.querySelector('#topic').style.opacity = "0";
+
+  document.querySelector('.header').style.height = '5vh';
+  topicBox.id = "box-1-open"
+  topicBox.classList += " open"
+  document.querySelector('.topic-list').style.display = 'block'
+
+}
+
+</script>
+
+</body>
+</html>

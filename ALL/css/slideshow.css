@@ -1,0 +1,27 @@
+.main{
+  width: 85vw;
+  height: 50vw;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom: 1px black solid;
+  /*background-image: url('images/a4.png');*/
+  background-repeat:no-repeat;
+  background-size:cover;
+  position: relative;
+  margin-bottom: 20px;
+  background-color: #FFFFE7;
+}
+
+.lower{
+  left: 7.5vw;
+  position: relative;
+}
+
+.title{
+  margin-bottom: 20px;
+}
+
+button{
+  height: 65px;
+  width: 90px;
+}

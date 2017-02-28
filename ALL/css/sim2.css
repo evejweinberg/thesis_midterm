@@ -1,0 +1,248 @@
+body {
+  background-color: #FEFEE5;
+  text-align: center;
+  font-family: "Helvetica";
+  transition: all .4s ease-in-out; }
+
+body * {
+  transition: all 0.5s ease-in-out; }
+
+html {
+  margin: 0;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute; }
+
+.caps {
+  text-transform: uppercase; }
+
+h1 {
+  font-size: 2.5em; }
+
+h2 {
+  font-size: 2em; }
+
+.red-button {
+  transition: all .5s ease-in-out;
+  border-radius: 10px;
+  background-color: #FF6666;
+  color: #FEFEE5;
+  box-shadow: 0.5px 1px 2px 1px rgba(0, 0, 0, 0.3);
+  margin: 0px 20px 10px 20px; }
+
+.temp {
+  /*   border: 2px dashed green; */ }
+
+.red-button:hover {
+  cursor: pointer;
+  background-color: #DD5858;
+  font-size: 1.87em;
+  transform: scale(1.1); }
+
+.light {
+  font-weight: lighter; }
+
+.inactive-button {
+  font-size: 1.7em;
+  border-radius: 10px;
+  background-color: #F48788;
+  color: #DD5858; }
+
+.twenty-vh-spacer {
+  width: 100%;
+  position: relative;
+  height: 20vh; }
+
+.intro-buttons {
+  font-size: 1.7em;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  position: relative; }
+
+#user-num {
+  position: absolute;
+  opacity: 0;
+  width: 50px;
+  height: 50px;
+  left: 3px;
+  /*   justify-content: center; */
+  /*   vertical-align: middle; */
+  display: none; }
+
+h2 {
+  font-family: "Helvetica";
+  font-weight: lighter;
+  font-size: 1.7em; }
+
+h1 {
+  letter-spacing: 5px;
+  font-weight: 400; }
+
+h3 {
+  color: #FF6666; }
+
+#eye {
+  width: 80%;
+  height: 80%;
+  /*   top: 10px; */ }
+
+.search-box {
+  /*   border: 3px salmon dashed; */
+  border-radius: 3px;
+  border: 1.5px solid #D6CCA7;
+  width: 300px;
+  margin-top: 40px;
+  height: 50px;
+  opacity: 0;
+  margin-left: 30px; }
+
+.search-box-button {
+  background-color: #FF6666;
+  width: 14%;
+  height: 80%;
+  right: 5px;
+  float: right;
+  margin-top: -13%;
+  position: relative;
+  border-radius: 3px;
+  box-shadow: 0.5px 1px 2px 1px rgba(0, 0, 0, 0.3); }
+
+.search-box-button:hover {
+  background-color: #DD5858;
+  cursor: pointer; }
+
+.blinking-line {
+  left: 5px;
+  margin-top: 1%;
+  height: 40px;
+  position: relative;
+  display: grid;
+  width: 3%;
+  border-left: 1.5px solid #D6CCA7;
+  animation: blink 1s ease-in-out infinite; }
+
+#formID {
+  top: -30px; }
+
+input {
+  font-size: 1.7em;
+  font-weight: lighter;
+  background-color: #FEFEE5;
+  text-decoration: none;
+  position: relative;
+  border: solid 0px transparent;
+  color: #D6CCA7;
+  height: 28px;
+  padding-left: 10px;
+  width: 70%;
+  left: 0%;
+  top: -2%;
+  box-shadow: 2px 2px transparent; }
+
+input:focus {
+  outline: none; }
+
+.sim-1-header {
+  margin: 0 0; }
+
+.intro-lines {
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px; }
+
+.intro-choice {
+  position: relative; }
+
+#paths > *, #paths-two > * {
+  stroke-dasharray: 12;
+  stroke-linecap: "round";
+  animation: dash 20s linear reverse infinite; }
+
+#paths {
+  transition: all .5s ease-in-out; }
+
+#paths-two {
+  position: relative;
+  width: 200px;
+  left: -350px;
+  top: 270px;
+  /*    stroke-dasharray: $dash-spread; */ }
+
+.waiting-page {
+  width: 300px;
+  height: 300px; }
+
+#send {
+  top: 310px; }
+
+#adword {
+  top: 360px; }
+
+#cookie {
+  top: 410px; }
+
+#waiting-text {
+  margin-top: 110px;
+  opacity: 0;
+  font-size: 2.5em;
+  display: none;
+  font-weight: lighter;
+  color: #D6CCA7;
+  transition: all 0.5s ease-in-out; }
+
+.play:hover {
+  background-color: #D6CCA7;
+  color: #FEFEE5;
+  text-decoration: underline;
+  cursor: pointer; }
+
+.play {
+  height: 20px;
+  color: #FF6666;
+  font-size: 0.8em;
+  width: 60px;
+  position: absolute;
+  top: 270px;
+  left: 385px; }
+
+.from-user-button {
+  line-height: 40px;
+  background-color: #FF6666;
+  color: #FEFEE5;
+  width: 200px;
+  position: absolute;
+  height: 40px;
+  font-weight: lighter;
+  font-size: 0.8em;
+  border-radius: 3px;
+  margin: 3px;
+  left: -300px;
+  /*   box-shadow: 2px rgba(0,0,0,0); */ }
+
+.scene2 {
+  opacity: 0;
+  pointer-events: none; }
+
+.scene3 {
+  opacity: 0;
+  pointer-events: none; }
+
+.scene {
+  position: absolute;
+  /*   border: 2px blue solid; */
+  width: 100%; }
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 1000; } }
+@keyframes blink {
+  to {
+    opacity: 0; } }
+
+/*# sourceMappingURL=sim2.css.map */

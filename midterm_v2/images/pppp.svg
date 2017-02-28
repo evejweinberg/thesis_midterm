@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1248.6 871.5" enable-background="new 0 0 1248.6 871.5" xml:space="preserve">
+<g>
+	<path fill="none" stroke="#000000" stroke-width="7" stroke-miterlimit="10" d="M1245.1,431.5c0,251.3-110.9,446.3-240.8,436.1
+		C881.6,858,787,666.8,787,440S881.6,18.5,1004.3,4.3C1134.2-10.6,1245.1,180.3,1245.1,431.5z"/>
+	<polyline fill="none" stroke="#000000" stroke-width="7" stroke-miterlimit="10" points="966.3,13.6 72.1,514.2 971,861.9 	"/>
+</g>
+<g>
+	<path fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" d="M1185.7,432.6c0,168.9-74.2,302.3-162.6,298.1
+		c-85-4-151.6-134.8-151.6-292.3s66.6-290.8,151.6-297.9C1111.5,133.1,1185.7,263.7,1185.7,432.6z"/>
+	<polyline fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" points="997,146.1 72.1,514.2 1000.3,727.5 	"/>
+</g>
+<g>
+	<path fill="none" stroke="#000000" stroke-width="2.4671" stroke-miterlimit="10" d="M1139.3,433.5c0,121.2-53,217.9-116.6,216
+		c-61.9-1.8-110.8-96.6-110.8-211.8s48.9-211.8,110.8-215.9C1086.4,217.6,1139.3,312.3,1139.3,433.5z"/>
+	<polyline fill="none" stroke="#000000" stroke-width="2.4671" stroke-miterlimit="10" points="1003.7,225.5 72.1,514.2 
+		1006.1,647.5 	"/>
+</g>
+<g>
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M1094.8,434.3c0,75.1-32.7,135.7-72.3,135.2
+		c-39-0.4-70-59.8-70-132.6s31.1-133.3,70-135.2C1062.2,299.8,1094.8,359.2,1094.8,434.3z"/>
+	<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="1010.6,303.9 72.1,514.2 1012.1,568.4 	"/>
+</g>
+<text transform="matrix(1 0 0 1 0 520.8678)" font-family="'Helvetica-Light'" font-size="22.265px">NOW</text>
+<text transform="matrix(1 0 0 1 968.8442 437.8678)" font-family="'Helvetica-Light'" font-size="22.265px">PROBABLE</text>
+<text transform="matrix(1 0 0 1 968.2322 284.8678)" font-family="'Helvetica-Light'" font-size="22.265px">PLAUSIBLE</text>
+<text transform="matrix(1 0 0 1 974.4216 199.8678)" font-family="'Helvetica-Light'" font-size="22.265px">POSSIBLE</text>
+<text transform="matrix(1 0 0 1 962.0535 88.8678)" font-family="'Helvetica-Light'" font-size="22.265px">IMPOSSIBLE</text>
+</svg>

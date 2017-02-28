@@ -1,0 +1,309 @@
+body {
+  background-color: #FEFEE5;
+  text-align: center;
+  font-family: "Helvetica";
+  transition: all .4s ease-in-out; }
+
+body * {
+  transition: all 0.5s ease-in-out; }
+
+html {
+  margin: 0;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute; }
+
+.caps {
+  text-transform: uppercase; }
+
+h1 {
+  font-size: 2.5em; }
+
+h2 {
+  font-size: 2em; }
+
+.red-button {
+  transition: all .5s ease-in-out;
+  border-radius: 10px;
+  background-color: #FF6666;
+  color: #FEFEE5;
+  box-shadow: 0.5px 1px 2px 1px rgba(0, 0, 0, 0.3);
+  margin: 0px 20px 10px 20px; }
+
+.temp {
+  /*   border: 2px dashed green; */ }
+
+.red-button:hover {
+  cursor: pointer;
+  background-color: #DD5858;
+  font-size: 1.87em;
+  transform: scale(1.1); }
+
+.light {
+  font-weight: lighter; }
+
+.inactive-button {
+  font-size: 1.7em;
+  border-radius: 10px;
+  background-color: #F48788;
+  color: #DD5858; }
+
+.twenty-vh-spacer {
+  width: 100%;
+  position: relative;
+  height: 20vh; }
+
+.footer {
+  justify-content: center;
+  padding-top: 15px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  z-index: 1000;
+  background-color: #FEFEE5;
+  height: 50px;
+  border-top: 1px rgba(0, 0, 0, 0.4) dashed; }
+
+#bullets {
+  text-align: left;
+  color: #DD5858;
+  position: relative;
+  font-size: 1.7em; }
+
+.button_item {
+  z-index: 600;
+  line-height: 90px;
+  vertical-align: middle;
+  justify-content: center;
+  font-size: 2.5em;
+  color: #FEFEE5;
+  background-color: salmon;
+  width: 200px;
+  position: relative;
+  flex: 1;
+  margin: 20px;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2); }
+
+.buttons_container {
+  z-index: 600;
+  /*   pointer-events: none; */
+  vertical-align: middle;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  top: 200px;
+  /*   border: 2px red solid; */
+  height: 100%; }
+
+.dot {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  border: 2px solid #F48788;
+  border-radius: 100px;
+  display: inline-block;
+  cursor: url("mouseB.png");
+  margin: 0 4px;
+  transition: .3s; }
+
+.dot:hover {
+  cursor: url("mouseB.png"), auto !important; }
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px 0px;
+  overflow: auto;
+  cursor: url("mouseSm.png"), auto !important; }
+
+.title {
+  color: #010101;
+  width: 85vw;
+  padding-top: 4%;
+  padding-left: 4%;
+  padding-bottom: -10%;
+  font-size: 3em;
+  font-weight: 800;
+  text-align: left;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center; }
+
+.title-holder {
+  display: block;
+  position: absolute; }
+
+.temp {
+  /*   border: 2px rgba(0,255,0,.5) dashed; */ }
+
+.main {
+  display: flex;
+  align-items: center;
+  width: 85vw;
+  height: 80vh;
+  left: 50%;
+  transform: translateX(-50%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  margin-bottom: 20px;
+  padding: 0px 0px 70px 0px; }
+
+.iframe-holder {
+  left: 50%;
+  transform: translateX(-50%);
+  top: 100px;
+  position: absolute;
+  width: 110%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  z-index: -300; }
+
+iframe {
+  position: relative;
+  flex: 1; }
+
+.filler {
+  width: 100%;
+  height: 600px; }
+
+.image-holder {
+  z-index: -10;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  width: 90vw;
+  height: 100%;
+  position: relative;
+  top: 100px; }
+
+.image-holder > * {
+  background: url(url) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  border: 2px #D6CCA7 solid;
+  margin: 2px;
+  /*   flex: 1; */ }
+
+.top-header {
+  top: 0px;
+  position: absolute;
+  text-align: left;
+  opacity: .6;
+  text-transform: uppercase; }
+
+#me {
+  /*   width: 200px; */
+  height: 200px;
+  left: -20%;
+  top: 300px;
+  border: transparent;
+  position: absolute;
+  background-size: contain; }
+
+#ddgHome {
+  /*   width: 200px; */
+  height: 600px;
+  top: 200px;
+  border: transparent;
+  position: absolute;
+  background-size: contain; }
+
+#ven {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  height: 90%;
+  background-size: contain;
+  border: transparent; }
+
+#banghello {
+  position: absolute;
+  top: 500px;
+  height: 220vw;
+  background-repeat: no-repeat; }
+
+#ven:hover {
+  cursor: url("mouseB.png"), auto; }
+
+#call-image {
+  position: absolute;
+  top: 100px; }
+
+.gallery_container {
+  position: relative;
+  top: -220px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: stretch;
+  /*
+  have fun here, replace 'flex-start' above here with one of the definitions below
+  align-items: flex-start | flex-end | center | baseline | stretch;
+  */
+  /* align-items: stretch;  */
+  /*   align-content: center; */
+  max-width: 99%; }
+
+.gallery_item {
+  /*   border: 3px red solid; */
+  /*  flex-basis: 55%; */
+  width: 50vw;
+  flex: 1;
+  min-width: 25%;
+  text-align: center;
+  margin: .5em;
+  color: #fff; }
+  .gallery_item img {
+    max-width: 100%;
+    height: auto !important;
+    margin-bottom: 0em;
+    box-shadow: 10px 20px 30px 10px rgba(92, 92, 92, 0.26); }
+
+#fogg0 {
+  max-width: 600px;
+  box-shadow: 0px 0px 0px 0px rgba(238, 34, 34, 0) !important; }
+
+#quoteTemp {
+  font-style: italic;
+  color: #DD5858;
+  position: relative;
+  width: 70%;
+  top: -200px;
+  left: 50%;
+  margin-bottom: 70px;
+  transform: translateX(-50%);
+  font-size: 1.7em; }
+
+path, rect, pattern {
+  /* This is where red colour is */
+  fill: #F48788; }
+
+.dot-holder {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 600px;
+  width: 600px; }
+
+.dot-holder > * {
+  position: absolute;
+  left: 0px; }
+
+#bg {
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  mix-blend-mode: screen;
+  opacity: .1;
+  z-index: -400;
+  pointer-events: none; }
+
+/*# sourceMappingURL=midterm_presentation.css.map */

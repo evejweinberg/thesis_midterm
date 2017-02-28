@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Eve Thesis Midterm</title>
+    <link rel="stylesheet" href="style/main.css">
+    <script
+  src="http://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="header">  </div>
+<div id='q1-parent'>
+
+<div id="q1">
+
+
+    <div class="container-rel temp" >
+
+
+        <div class="temp container-abs">
+          <div class="container-rel circle-stroke">
+          </div>
+          <div class="container-rel circle-stroke">
+          </div>
+          <div class="container-rel circle">
+              <p id="q" class="container-abs temp">?</p>
+          </div>
+
+              </div>
+
+              <div class="temp container-abs" id="none">
+                <div class="container-rel title">
+                  <h2 class=" title temp">How can <br><span class="striped">Motion Graphics</span> make UX more <span class="striped">Persuasive</span>?</h2>
+
+                  <!-- <div class=" wiggle-holder"> -->
+
+                </div>
+
+                    </div>
+
+<!-- </div> -->
+
+    <!-- </div> -->
+
+
+<!-- <div class="temp inner question-1b">
+
+</div> -->
+
+
+
+
+</div>
+
+        </div>
+
+
+        <script type="text/javascript">
+        $( '.circle').on( "mouseenter", function() {
+          console.log('hovering')
+
+          $('.circle-stroke:first').addClass('circle-animate')
+            $('.circle-stroke:nth-child(2)').addClass('circle-animate2')
+
+        })
+        $( '.circle').on( "mouseleave", function() {
+          console.log('hovering')
+
+          $('.circle-stroke:first').removeClass('circle-animate')
+            $('.circle-stroke:nth-child(2)').removeClass('circle-animate2')
+
+        })
+
+        $( '.circle').click(Start)
+
+        function Start(){
+          // $('.circle').css('transform','scale(.4)');
+          setTimeout(function(){$('#q1-parent').fadeOut(1000)},000)
+        }
+
+
+        </script>
+
+  </body>
+</html>
