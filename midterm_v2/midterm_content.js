@@ -130,7 +130,7 @@ var everything = [
     "bullets": "",
     "image": "",
     "imageId": "",
-    "iframe": 'http://itp.evejweinberg.com/thesis_midterm_pieces/simulation1/',
+    "iframe": 'https://evejweinberg.github.io/thesis_midterm/simulation1/',
     "descriptor": ""
   },
   // {
