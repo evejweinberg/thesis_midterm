@@ -64,7 +64,7 @@ var everything = [
     "topheader": "",
     "image": "",
     "title": "",
-    "iframe": 'http://itp.evejweinberg.com/thesis_midterm_pieces/call/solution02/',
+    "iframe": 'https://evejweinberg.github.io/thesis_midterm/call/solution02/',
     "imageId": "callsolution",
     "descriptor": "call-solution"
   },
@@ -100,7 +100,7 @@ var everything = [
     "bullets": "",
     "image": "",
     "imageId": "emotions",
-    "iframe": 'http://itp.evejweinberg.com/gage/',
+    "iframe": 'https://evejweinberg.github.io/thesis_midterm/gage/',
     "descriptor": "gage"
   },
 
